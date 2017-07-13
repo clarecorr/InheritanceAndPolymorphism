@@ -10,10 +10,15 @@ namespace InheritanceAndPolymorphism
     {
         private double waterDrag;
 
-        public Boat(int seats, int carryCapacity, string color, double movementSpeed, double waterDrag)
+        public Boat()
+        {
+                
+        }
+
+        public Boat(int seats, int carryingCapacity, string color, double movementSpeed, double waterDrag)
         {
             this.seats = seats;
-            this.carryCapacity = carryCapacity;
+            this.carryingCapacity = carryingCapacity;
             this.color = color;
             this.movementSpeed = movementSpeed;
             this.waterDrag = waterDrag;

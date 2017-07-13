@@ -10,7 +10,7 @@ namespace InheritanceAndPolymorphism
     {
         //fields
         protected int seats;
-        protected int carryCapacity;
+        protected int carryingCapacity;
         protected string color;
         protected double movementSpeed;
         protected double distanceTraveled;
@@ -20,7 +20,7 @@ namespace InheritanceAndPolymorphism
 
         //properties
         public int Seats { get; }
-        public int CarryCapacity { get; }
+        public int CarryingCapacity { get; }
         public string Color { get; set; }
         public double DistanceTraveled { get; }
 
@@ -29,10 +29,10 @@ namespace InheritanceAndPolymorphism
         {
 
         }
-        public Vehicle(int seats, int carryCapacity, string color, double movementSpeed)
+        public Vehicle(int seats, int carryingCapacity, string color, double movementSpeed)
         {
             this.seats = seats;
-            this.carryCapacity = carryCapacity;
+            this.carryingCapacity = carryingCapacity;
             this.color = color;
             this.movementSpeed = movementSpeed;
             distanceTraveled = 0.0d;
